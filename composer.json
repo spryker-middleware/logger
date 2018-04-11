@@ -1,0 +1,21 @@
+{
+    "name": "spryker-middleware/logger",
+    "description": "Logger module",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1",
+        "spryker/log": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "SprykerMiddleware\\": "src/SprykerMiddleware/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "process-timeout": 600
+    }
+}
