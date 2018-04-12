@@ -10,14 +10,14 @@ namespace SprykerMiddleware\Shared\Logger\Logger;
 use Psr\Log\LoggerInterface;
 use Spryker\Shared\Log\Config\LoggerConfigInterface;
 use Spryker\Shared\Log\LoggerTrait;
-use SprykerMiddleware\Shared\Process\Log\Exception\ProcessLoggerNotConfiguredException;
+use SprykerMiddleware\Shared\Logger\Logger\Exception\ProcessLoggerNotConfiguredException;
 
 trait MiddlewareLoggerTrait
 {
     use LoggerTrait;
 
     /**
-     * @throws \SprykerMiddleware\Shared\Process\Log\Exception\ProcessLoggerNotConfiguredException
+     * @throws \SprykerMiddleware\Shared\Logger\Logger\Exception\ProcessLoggerNotConfiguredException
      *
      * @return \Psr\Log\LoggerInterface
      */
