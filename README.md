@@ -14,5 +14,4 @@ composer require spryker-middleware/logger
 ```
 
 ## Documentation
-TODO
 [Module Documentation](https://academy.spryker.com/developing_with_spryker/spryker_middleware.html)
