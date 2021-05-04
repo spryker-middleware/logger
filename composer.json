@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-          "SprykerMiddleware\\": "src/SprykerMiddleware/"
+            "SprykerMiddleware\\": "src/SprykerMiddleware/"
         }
     },
     "minimum-stability": "dev",
@@ -30,7 +30,7 @@
         "process-timeout": 600
     },
     "scripts": {
-      "cs-check": "phpcs --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml -v src/",
-      "cs-fix": "phpcbf --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml -v src/"
+        "cs-check": "phpcs --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml -v src/",
+        "cs-fix": "phpcbf --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml -v src/"
     }
 }
